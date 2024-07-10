@@ -61,11 +61,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       
 	
 
-	<a href="https://www.instagram.com/juandavidguti/" class="instagram"><i class="bx bxl-facebook"></i></a>
+	<a  class="instagram"><i class="bx bxl-facebook"></i></a>
       
-	<a href="https://www.instagram.com/juandavidguti/" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="https://calendly.com/juandavidguti/30min" class="calendly"><i class="bx bxs-calendar"></i></a>
-        <a href="https://www.linkedin.com/in/juan-david-guti%C3%A9rrez-olarte-09b63698/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+	<a  class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://github.com/WajihulHassan944" target="_blank" class="calendly"><i class="fa fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/the-wajih-ul-hassan/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
     </div>
 </div>
 
@@ -75,7 +75,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
           <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
 		 <!-- <li><a href="#certifications"><i class="fa fa-certificate"></i> Certifications</a></li> -->
-     <!--     <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>  -->
+        <li><a href="#portfolio"><i class="bx bx-book-content"></i> Portfolio</a></li>  
           <li><a href="#services"><i class="bx bx-server"></i> Services</a></li>
           <li><a href="#contact"><i class="bx bx-envelope"></i> Contact</a></li>
 
@@ -115,7 +115,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <div class="row">
       <div class="col-lg-4" data-aos="fade-right">
-        <img src="assets/images/ss1.png" class="img-fluid" alt="">
+        <img src="myimg.jpg" class="img-fluid" alt="">
       </div>
       <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
         <h3>Software Engineer & MERN Stack Developer</h3>
@@ -383,10 +383,13 @@ industryExperienceElement.textContent = yearsOfExperience;
   </div>
 </section><!-- End Resume Section -->
 
+<style>
 
-
-    <!-- ======= Portfolio Section 
-    <section id="portfolio" class="portfolio section-bg">
+.vbox-next, .vbox-prev {
+    display: none !important;
+}
+</style>
+<section id="portfolio" class="portfolio section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -398,10 +401,10 @@ industryExperienceElement.textContent = yearsOfExperience;
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
+            <!--  <li data-filter=".filter-app">App</li>
               <li data-filter=".filter-card">Card</li>
               <li data-filter=".filter-web">Web</li>
-            </ul>
+            --></ul>
           </div>
         </div>
 
@@ -409,90 +412,113 @@ industryExperienceElement.textContent = yearsOfExperience;
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="projects/kingstreets.png" class="img-fluid" alt="" >
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="full-images/kingstreets.png" data-gall="portfolioGallery" class="venobox" title="Kingstreets Website"><i class="bx bx-plus"></i></a>
+                <a href="https://kingstreets.com/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="projects/ajla.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="full-images/ajla.png" data-gall="portfolioGallery" class="venobox" title="Ajla Burina Website"><i class="bx bx-plus"></i></a>
+                <a href="https://ajla-burina.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="projects/construction.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="full-images/construction.png" data-gall="portfolioGallery" class="venobox" title="All County Construction Website"><i class="bx bx-plus"></i></a>
+                <a href="https://construction-website-s4.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <img src="projects/fantasy.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="full-images/fantasy.png" data-gall="portfolioGallery" class="venobox" title="Fantasymmadness Website"><i class="bx bx-plus"></i></a>
+                <a href="https://fantasymmadness.com/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="projects/jax.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="full-images/store.png" data-gall="portfolioGallery" class="venobox" title="Merchandise Store"><i class="bx bx-plus"></i></a>
+                <a href="https://merchandise-store-iota.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="projects/phoebe.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="projects/phoebe.png" data-gall="portfolioGallery" class="venobox" title="Model Website"><i class="bx bx-plus"></i></a>
+                <a href="http://phoebe-chok.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="projects/sweet.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="full-images/sweet.png" data-gall="portfolioGallery" class="venobox" title="Sweet Spot Desserts Website"><i class="bx bx-plus"></i></a>
+                <a href="https://sweetsportdesserts.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <img src="projects/thilina.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="full-images/thilina.png" data-gall="portfolioGallery" class="venobox" title="Thilina Portfolio Website"><i class="bx bx-plus"></i></a>
+                <a href="http://thilina.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <img src="projects/anya.png" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="full-images/anya.png" data-gall="portfolioGallery" class="venobox" title="Anya Narayan Website"><i class="bx bx-plus"></i></a>
+                <a href="https://anyanarayan.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="projects/brothsmen.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="full-images/brothsmen.png" data-gall="portfolioGallery" class="venobox" title="Brothsmen Website"><i class="bx bx-plus"></i></a>
+                <a href="https://brothsmen.vercel.app/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+
+<div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="projects/speakout.png" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="full-images/speakout.png" data-gall="portfolioGallery" class="venobox" title="Speakout Website"><i class="bx bx-plus"></i></a>
+                <a href="https://speakout-front.onrender.com/" title="More Details" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -500,8 +526,8 @@ industryExperienceElement.textContent = yearsOfExperience;
         </div>
 
       </div>
-    </section> End Portfolio Section -->
-
+    </section>
+	
 
 
 <!--
@@ -855,18 +881,18 @@ industryExperienceElement.textContent = yearsOfExperience;
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
+                  <input type="text" name="name" class="form-control" id="namess" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required />
                   <div class="validate"></div>
                 </div>
                 <div class="form-group col-md-6">
                   <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" required />
+                  <input type="email" class="form-control" name="email" id="emailss" data-rule="email" data-msg="Please enter a valid email" required />
                   <div class="validate"></div>
                 </div>
               </div>
               <div class="form-group">
                 <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required />
+                <input type="text" class="form-control" name="subject" id="subjectss" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required />
                 <div class="validate"></div>
               </div>
               <div class="form-group">
@@ -885,23 +911,17 @@ industryExperienceElement.textContent = yearsOfExperience;
 
 <script>
 
-var userName = document.getElementById("name");
-var userEmail = document.getElementById("email");
+var userName = document.getElementById("namess");
+var userEmail = document.getElementById("emailss");
 var userMessage = document.getElementById("messageBody");
-var userSubject = document.getElementById("subject");
+var userSubject = document.getElementById("subjectss");
 var orderFormSubmit = document.getElementById("newOrderForm");
 var loadingAnimation = document.getElementById("loadingAnimation");
 const body = document.querySelector("body");
-const emailRegex = /^[^\s@]+@[^\s@]+\.(com|net|org|edu|gov|mil|biz|info|name|museum|co\.uk|org\.uk|net\.uk|ac\.uk|sch\.uk|aero|asia|cat|coop|jobs|mobi|museum|tel|travel)$/i;
 
 orderFormSubmit.addEventListener("submit", function(event) {
   event.preventDefault(); 
-  
-  // Email validation
-  if (!emailRegex.test(userEmail.value)) {
-    alert('Invalid email');
-    return;
-  }
+
 
   loadingAnimation.style.display = "block";
 
@@ -912,7 +932,7 @@ orderFormSubmit.addEventListener("submit", function(event) {
     subject: userSubject.value,
   };
 
-  fetch("https://bewildered-tan-tux.cyclic.cloud/send-data-juan", {
+  fetch("https://mental-health-backend-one.vercel.app/send-data-myportfolio", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
